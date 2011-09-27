@@ -116,5 +116,41 @@ Se habrá de poner lo siguiente en la línea de comandos. Sustituyendo "Firstnam
 `git config --global user.email "your_email@youremail.com"`
 
 
-Segunda Parte: Git&Github -> Crear un Repositorio
+Segunda Parte: Git&Github -> Crear y Clonar un Repositorio
 ========
+
+Crear un Repositorio
+--------
+En primer lugar se deberá crear el repositorio en Github, haciendo click en donde dice [New Repository](https://github.com/repositories/new). 
+
+Ahí se indicará el nombre del proyecto/repositorio (Project Name) y opcionalmente una descripción del mismo (Description) y un link a la web del proyecto (Homepage Url). También se puede indicar si el repositorio será público, siendo visible para todo el mundo, o bien privado, que solo será accesible para el usuario que lo crea y el o los contribuidores. 
+
+Una vez creado el Repo en Github se deberá crear en el PC siguiendo estos pasos:
+
+1. Crear el directorio (carpeta) en donde se alojará el repo. Para ello recomiendo crear una carpeta en nuestra carpeta de usuario (mac) / disco local c (windows) y alojar ahí todos los repos.
+
+2. En línea de comandos (terminal/cmd) navegar hasta el repo. Deberemos llegar hasta el repositorio mediante la línea de comandos, usando el comando *cd*. Ej: 
+
+`<Macbook-Pro-de-Jesus:~ Jesus$ cd github
+Macbook-Pro-de-Jesus:github Jesus$ cd Guia-sobre-Git-Github-y-Metodologia-de-Desarrollo-de-Software-usando-Git-y-Github
+Macbook-Pro-de-Jesus:Guia-sobre-Git-Github-y-Metodologia-de-Desarrollo-de-Software-usando-Git-y-Github Jesus$>`
+
+3. Inicializar el repo de git. Una vez se llega al que será el directorio del repo se debe introducir lo siguiente para iniciar el repositorio en **git**.
+
+`<git init>`
+
+4. Añadir la dirección remota del repositorio de github. Se deberá indicar dónde estará alojado el repo. 
+
+`<git remote add origin git@github.com:nombreusuario/nombrerepo.git>`
+	
+>Ej: git@github.com:Hispano/test.git	
+
+
+Clonar un Repositorio
+--------
+
+Esto es muy simple. Una vez se llegue al directorio donde se va a clonar el repo vía línea de comandos, se debe indicar lo siguiente.
+
+`<git clone linkhttp>`
+	
+>Ej: git clone https://github.com/Hispano/test
