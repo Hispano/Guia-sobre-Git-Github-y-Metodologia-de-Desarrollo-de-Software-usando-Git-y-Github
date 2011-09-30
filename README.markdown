@@ -131,9 +131,11 @@ Una vez creado el Repo en Github se deberá crear en el PC siguiendo estos pasos
 
 2. En línea de comandos (terminal/cmd) navegar hasta el repo. Deberemos llegar hasta el repositorio mediante la línea de comandos, usando el comando *cd*. Ej: 
 
-`<Macbook-Pro-de-Jesus:~ Jesus$ cd github
-Macbook-Pro-de-Jesus:github Jesus$ cd Guia-sobre-Git-Github-y-Metodologia-de-Desarrollo-de-Software-usando-Git-y-Github
-Macbook-Pro-de-Jesus:Guia-sobre-Git-Github-y-Metodologia-de-Desarrollo-de-Software-usando-Git-y-Github Jesus$>`
+`<Macbook-Pro-de-Jesus:~ Jesus$ cd github>`
+
+`<Macbook-Pro-de-Jesus:github Jesus$ cd Guia-sobre-Git-Github-y-Metodologia-de-Desarrollo-de-Software-usando-Git-y-Github>`
+
+`<Macbook-Pro-de-Jesus:Guia-sobre-Git-Github-y-Metodologia-de-Desarrollo-de-Software-usando-Git-y-Github Jesus$>`
 
 3. Inicializar el repo de git. Una vez se llega al que será el directorio del repo se debe introducir lo siguiente para iniciar el repositorio en **git**.
 
