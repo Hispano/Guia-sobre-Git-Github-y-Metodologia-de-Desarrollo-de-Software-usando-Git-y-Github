@@ -161,7 +161,8 @@ Esto es muy simple. Una vez se llegue al directorio donde se va a clonar el repo
 Tercera Parte: Git-> Realizar cambios, revertirlos y subirlos al repositorio remoto
 ========
 
-Esta parte comprende el workflow que se realiza con normalidad cuando se está trabajando en un repositorio manejando Git. La dividiré en las siguientes partes: 
+Esta parte comprende el workflow que se realiza con normalidad cuando se está trabajando en un repositorio manejando Git. La dividiré en las siguientes partes:
+
 1. Añadir uno o varios archivos a un commit.
 2. Realizar un commit con su correspondiente mensaje.
 3. Subir los cambios al repositorio remoto alojado en los servidores de GitHub.
@@ -169,8 +170,9 @@ Esta parte comprende el workflow que se realiza con normalidad cuando se está t
 
 Para apreciar los cambios que se producen en el repositorio mientras se realizan estas acciones se utilizará el comando `<git status>`
 Si no hemos realizado ningún cambio en el repositorio, al usar ese comando nos debería mostrar algo así:
-`< ➜ Guia-sobre-Git-Github-y-Metodologia-de-Desarrollo-de-Software-usando-Git-y-Github git:(master) git status
-# On branch master
+
+`<➜Guia-sobre-Git-Github-y-Metodologia-de-Desarrollo-de-Software-usando-Git-y-Github git:(master) git status
+On branch master
 nothing to commit (working directory clean)>`
 
 Añadir archivos a un commit
@@ -182,7 +184,7 @@ Sólo podremos usarlo para archivos modificados o añadidos al repositorio.
 	
 >Ej: git add src/server/game/CMakeLists.txt
 
-Lo cual añadirá el archivo CMakeLists.txt a nuestro commit
+Lo cual añadirá el archivo CMakeLists.txt a nuestro commit.
 
 
 Realizar un commit
