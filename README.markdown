@@ -171,9 +171,9 @@ Esta parte comprende el workflow que se realiza con normalidad cuando se está t
 Para apreciar los cambios que se producen en el repositorio mientras se realizan estas acciones se utilizará el comando `<git status>`
 Si no hemos realizado ningún cambio en el repositorio, al usar ese comando nos debería mostrar algo así:
 
-`<➜Guia-sobre-Git-Github-y-Metodologia-de-Desarrollo-de-Software-usando-Git-y-Github git:(master) git status
-On branch master
-nothing to commit (working directory clean)>`
+`<➜Guia-sobre-Git-Github-y-Metodologia-de-Desarrollo-de-Software-usando-Git-y-Github git:(master) git status>`
+`<On branch master>`
+`<nothing to commit (working directory clean)>`
 
 Añadir archivos a un commit
 --------
