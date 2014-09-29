@@ -21,7 +21,7 @@ Hay 4 tipos de objetos en git (el más importante a entender es el commit).
 
 >Para más información sobre los objetos de git, dirigirse a: [Git Community Book](http://book.git-scm.com/1_the_git_object_model.html)
 
-Qué es [Github](http://github.com/)?
+Qué es [GitHub](http://github.com/)?
 --------
 Github es una plataforma de desarrollo colaborativo de software para **alojar proyectos** usando el sistema de control de versiones Git. El código se almacena de forma pública, aunque también se puede hacer de forma privada, creando una cuenta de pago. También se pueden obtener repositorios privados (de pago) si se es estudiante.
 
