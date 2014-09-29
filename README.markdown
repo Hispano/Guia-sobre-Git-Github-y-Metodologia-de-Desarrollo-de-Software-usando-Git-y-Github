@@ -21,11 +21,11 @@ Hay 4 tipos de objetos en git (el más importante a entender es el commit).
 
 >Para más información sobre los objetos de git, dirigirse a: [Git Community Book](http://book.git-scm.com/1_the_git_object_model.html)
 
-Qué es [Github](http://github.com/)?
+Qué es [GitHub](http://github.com/)?
 --------
-Github es una plataforma de desarrollo colaborativo de software para **alojar proyectos** usando el sistema de control de versiones Git. El código se almacena de forma pública, aunque también se puede hacer de forma privada, creando una cuenta de pago. También se pueden obtener repositorios privados (de pago) si se es estudiante.
+GitHub es una plataforma de desarrollo colaborativo de software para **alojar proyectos** usando el sistema de control de versiones Git. El código se almacena de forma pública, aunque también se puede hacer de forma privada, creando una cuenta de pago. También se pueden obtener repositorios privados (de pago) si se es estudiante.
 
-Github no sólo ofrece alojamiento del código si no muchas más posibilidades asociadas a los repos como son, forks, issues, pull requests, diffs, etc. Se verán todos con detalle más adelante.
+GitHub no sólo ofrece alojamiento del código si no muchas más posibilidades asociadas a los repos como son, forks, issues, pull requests, diffs, etc. Se verán todos con detalle más adelante.
 
 Qué es una metodología de desarrollo de software en el mundo de la programación y de qué forma vamos a aplicarla?
 --------
@@ -35,15 +35,15 @@ Básicamente el punto aquí es controlar el proceso de desarrollo para que sea o
 
 Esto a primera vista es algo muy simple pero se complica extremadamente dando lugar a diversas metodologías y hay libros muy extensos sobre ello además de mucha controversia sobre cual es la mejor. A nosotros esto nos importa más bien poco pero a donde quiero llegar con esto es a la implementación de una metodología de desarrollo del emulador. 
 
-Este método de desarrollo estaría basado en Git y Github ofreciéndonos una enorme versatilidad y posibilitando que todo el equipo de desarrollo esté al día en cuanto a novedades en el desarrollo así como multitud de ventajas que más adelante explicaré. Esta metodología estaría basada en las branches y pull request.
+Este método de desarrollo estaría basado en Git y GitHub ofreciéndonos una enorme versatilidad y posibilitando que todo el equipo de desarrollo esté al día en cuanto a novedades en el desarrollo así como multitud de ventajas que más adelante explicaré. Esta metodología estaría basada en las branches y pull request.
 
 
 >Para concluir esta introducción o presentación de la guía me gustaría mencionar que todo esto que he resumido arriba es en lo que se basan todos los proyectos de desarrollo de software profesionales con unas bases firmes. 
 
 
-Segunda Parte: Git&Github -> Setup 
+Segunda Parte: Git&GitHub -> Setup 
 ========
-En primer lugar ha de crearse una cuenta en [Github](https://github.com/signup/free).
+En primer lugar ha de crearse una cuenta en [GitHub](https://github.com/signup/free).
 
 El siguiente paso será instalar git. 
 
@@ -51,11 +51,11 @@ Para Mac OS X -> [Git](http://code.google.com/p/git-osx-installer/downloads/list
 
 Para Windows -> [Git](http://code.google.com/p/msysgit/downloads/list?can=3)
 
-Antes de pasar a explicar el proceso de enlace del pc con Github quiero dejar algo claro. Git es un programa que se instala en nuestro pc (hasta ahí todo claro supongo :), pero hay que tener en cuenta que no todos los programas tienen una interfaz gráfica (gui). En el caso de git en mac no hay gui (aunque sí hay programas externos que permite manejar git a través de una gui) y en el caso de windows git sí viene incluido con una gui. Sin embargo, tanto en mac como en windows, **no** es recomendable trabajar con git mediante una interfaz gráfica. En vez de eso se trabajará mediante línea de comandos por terminal (en mac) / cmd (en windows). 
+Antes de pasar a explicar el proceso de enlace del pc con Github quiero dejar algo claro. Git es un programa que se instala en nuestro pc (hasta ahí todo claro supongo :), pero hay que tener en cuenta que no todos los programas tienen una interfaz gráfica (gui). En el caso de git en mac no hay gui (aunque sí hay programas externos que permite manejar git a través de una gui) y en el caso de windows Git sí viene incluido con una gui. Sin embargo, tanto en mac como en windows, **no** es recomendable trabajar con git mediante una interfaz gráfica. En vez de eso se trabajará mediante línea de comandos por terminal (en mac) / cmd (en windows). 
 
 Set Up Clave SSH  
 --------
->Las claves SSH se usan para establecer una conexión segura entre el pc y Github.
+>Las claves SSH se usan para establecer una conexión segura entre el pc y GitHub.
 
 Para **crear la clave** se ha de seguir los siguientes pasos en terminal (en mac) o en cmd (en windows).
 
@@ -82,9 +82,9 @@ En Mac: `pbcopy < ~/.ssh/id_rsa.pub`
 
 En Windows: dirigirse la gui de git (llamada Git Extensions), ir a Help (Ayuda), Show Key (Mostrar Clave) y entonces presionar Copy to Clipboard (Copiar al portapales) para copiar la clave ssh al portapeles
 
-**Situar la clave SSH en Github.**
+**Situar la clave SSH en GitHub.**
 
-Se deberá dirigir a [Github](https://github.com/account/ssh) y hacer click en "Add another pubic key". Control+v (Cmd+v en mac) en la zona de "Key" para situar ahí nuestra clave ssh. Se pone cualquier título en "Title". Por ej: algo para reconocer el pc del que es esa clave (Ej: Macbook Pro de Jesús).
+Se deberá dirigir a [GitHub](https://github.com/account/ssh) y hacer click en "Add another pubic key". Control+v (Cmd+v en mac) en la zona de "Key" para situar ahí nuestra clave ssh. Se pone cualquier título en "Title". Por ej: algo para reconocer el pc del que es esa clave (Ej: Macbook Pro de Jesús).
 
 **Comprobación**
 
@@ -103,7 +103,7 @@ Y eso devolverá
 `Hi 'username'! You've succesfully authenticated, ....`
 
 
-Llegados a este punto nuestro pc ya será capaz de conectarse al servidor de github y poder realizar todo tipo de acciones.
+Llegados a este punto nuestro pc ya será capaz de conectarse al servidor de GitHub y poder realizar todo tipo de acciones.
 
 Por último se configurará nuestra info.
 
@@ -125,7 +125,7 @@ En primer lugar se deberá crear el repositorio en Github, haciendo click en don
 
 Ahí se indicará el nombre del proyecto/repositorio (Project Name) y opcionalmente una descripción del mismo (Description) y un link a la web del proyecto (Homepage Url). También se puede indicar si el repositorio será público, siendo visible para todo el mundo, o bien privado, que solo será accesible para el usuario que lo crea y el o los contribuidores. 
 
-Una vez creado el Repo en Github se deberá crear en el PC siguiendo estos pasos:
+Una vez creado el Repo en GitHub se deberá crear en el PC siguiendo estos pasos:
 
 1. Crear el directorio (carpeta) en donde se alojará el repo. Para ello recomiendo crear una carpeta en nuestra carpeta de usuario (mac) / disco local c (windows) y alojar ahí todos los repos.
 
